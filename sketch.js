@@ -64,7 +64,7 @@ function setup()
  if(isMobile){
  canW=displayWidth;
  canH=displayHeight;
- createCanvas(displayWidth+80,displayHeight);
+ createCanvas(displayWidth,displayHeight);
  }
 
  else{
@@ -146,7 +146,7 @@ function setup()
 function draw() 
 {
   background(51);
-  image(backgroundPic,0,0,displayWidth+80,displayHeight);
+  image(backgroundPic,0,0,displayWidth,displayHeight);
   ground.show();
   rope.show();
   rope2.show();
