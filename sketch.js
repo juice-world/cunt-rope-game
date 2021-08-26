@@ -83,9 +83,9 @@ function setup()
     backgroundSound.play();
     backgroundSound.setVolume(0.5);
     
-  rope = new Rope(7,{x:245,y:30});
-  rope2 = new Rope(10,{x:28,y:40});
-  rope3 = new Rope(6,{x:400,y:210});
+  rope = new Rope(8,{x:40,y:30});
+  rope2 = new Rope(7,{x:370,y:40});
+  rope3 = new Rope(4,{x:400,y:225});
 
   fruit=Bodies.circle(300,300,20);
 
