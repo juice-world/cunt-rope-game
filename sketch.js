@@ -107,14 +107,9 @@ function setup()
   blink.frameDelay=17;
   eat.frameDelay=17;
   sad.frameDelay=17;
-
-  rectMode(CENTER);
-  ellipseMode(RADIUS);
-  textSize(50);
-  imageMode(CENTER);
   
   button=createImg("cut_btn.png");
-  button.position(200,30);
+  button.position(20,30);
   button.size(50,50);
   button.mouseClicked(drop);
   
@@ -130,16 +125,19 @@ function setup()
   Mute.mouseClicked(mute);
 
   button1=createImg("cut_btn.png");
-  button1.position(28,30);
+  button1.position(330,35);
   button1.size(50,50);
   button1.mouseClicked(drop2);
 
   button2=createImg("cut_btn.png");
-  button2.position(400,200);
+  button2.position(360,200);
   button2.size(50,50);
   button2.mouseClicked(drop3);
 
-
+rectMode(CENTER);
+  ellipseMode(RADIUS);
+  textSize(50);
+ 
 
 }
 
